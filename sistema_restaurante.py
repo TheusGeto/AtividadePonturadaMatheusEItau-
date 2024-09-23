@@ -49,11 +49,14 @@ while True:
         case _: 
             print("resposta invalida burrão!!!")
     while True:
-        continuar = input("quer acrescentar mais pratos: [SIM(S)/NÂO(N)]").strip().upper()
+        continuar = input("quer acrescentar mais pratos: [SIM(S)/NÃO(N)] ").strip().upper()
         if continuar in ['S', 'N']:
             break
         else:
-            print("resposta invalida!!!")
-            
-        if continuar == 'N':
-            break
+            print("resposta inválida!!!")
+    
+    # Saindo do loop se a resposta for 'N'
+    if continuar == 'N':
+        break
+
+print(f"Total a pagar: R${total:.2f}")
