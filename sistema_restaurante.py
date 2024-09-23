@@ -3,7 +3,7 @@ Informe o número da turma:
 Turma - 
 
 Nome completo dos componentes.
-1 - 
+1 - Itauã GUALBERTO.
 2 - 
 """
 total = 0
