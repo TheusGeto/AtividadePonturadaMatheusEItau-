@@ -1,9 +1,9 @@
 """
 Informe o número da turma: 
-Turma - 
+Turma - 93313
 
 Nome completo dos componentes.
-1 - Itauã GUALBERTO.
+1 - Itauã Guaberto.
 2 - Matheus Gabriel 
 """
 
